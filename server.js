@@ -6,5 +6,5 @@ app.use(express.json());
 app.use(logger("dev"));
 
 app.listen(8080, () => {
-  console.log("Server is listening in port 8080");
+  console.log("Server listening in port 8080");
 });
